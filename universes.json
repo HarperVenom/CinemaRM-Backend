@@ -1,0 +1,117 @@
+{
+  "id": "marvel-cinematic-universe",
+  "title": "Marvel Cinematic Universe",
+  "description": "The Marvel Cinematic Universe is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics.",
+  "imgUrl": "https://i.ytimg.com/vi/Tgh0dsR_bl8/maxresdefault.jpg",
+  "backgroundUrl": "https://i.pinimg.com/736x/5c/1d/f8/5c1df865ec798229c9a722c6240a896f.jpg",
+  "titles": [
+    {
+      "id": "iron_man",
+      "branch": "Avengers",
+      "watchAfter": [],
+      "standAlone": false,
+      "title": "Iron Man",
+      "description": "When Tony Stark, an industrialist, is captured, he constructs a high-tech armoured suit to escape. Once he manages to escape, he decides to use his suit to fight against evil forces to save the world.",
+      "releaseDate": "2008-05-02",
+      "duration": 126,
+      "storyDate": "2008-2009",
+      "imgUrl": "https://i.ebayimg.com/images/g/i~cAAOSwS6phZO9h/s-l1200.webp",
+      "backgroundUrl": "https://images.squarespace-cdn.com/content/v1/54853324e4b0fdd780637baa/1487456759503-EHFBL73BG5U9N3S8583P/image-asset.jpeg"
+    },
+    {
+      "id": "the_incredible_hulk",
+      "branch": "Avengers",
+      "watchAfter": [],
+      "standAlone": false,
+      "title": "The Incredible Hulk",
+      "description": "Dr Bruce Banner subjects himself to high levels of gamma radiation, which triggers his transformation into a huge green creature, the Hulk, whenever he experiences negative emotions such as anger.",
+      "releaseDate": "2008-06-13",
+      "duration": 112,
+      "storyDate": "2011",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMTUyNzk3MjA1OF5BMl5BanBnXkFtZTcwMTE1Njg2MQ@@._V1_.jpg",
+      "backgroundUrl": "https://mculocationscout.com/wp-content/uploads/2021/01/incredible-hulk_039-rooftopsaerial.jpg?w=1200"
+    },
+    {
+      "id": "iron_man_2",
+      "branch": "Avengers",
+      "watchAfter": ["iron_man"],
+      "standAlone": false,
+      "title": "Iron Man 2",
+      "description": "Tony Stark is under pressure from various sources, including the government, to share his technology with the world. He must find a way to fight them while also tackling his other enemies.",
+      "releaseDate": "2010-05-07",
+      "duration": 125,
+      "storyDate": "2010",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BZGVkNDAyM2EtYzYxYy00ZWUxLTgwMjgtY2VmODE5OTk3N2M5XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+      "backgroundUrl": ""
+    },
+    {
+      "id": "thor",
+      "branch": "Avengers",
+      "watchAfter": [],
+      "standAlone": false,
+      "title": "Thor",
+      "description": "Thor is exiled by his father, Odin, the King of Asgard, to the Earth to live among mortals. When he lands on Earth, his trusted weapon Mjolnir is discovered and captured by S.H.I.E.L.D.",
+      "releaseDate": "2011-05-02",
+      "duration": 114,
+      "storyDate": "2011",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_.jpg",
+      "backgroundUrl": "https://i.ibb.co/dPsxKDs/Screenshot-2024-05-17-154958.png"
+    },
+    {
+      "id": "captain_america_the_first_avenger",
+      "branch": "Avengers",
+      "watchAfter": [],
+      "standAlone": false,
+      "title": "Captain America: The First Avenger",
+      "description": "During World War II, Steve Rogers decides to volunteer in an experiment that transforms his weak body. He must now battle a secret Nazi organisation headed by Johann Schmidt to defend his nation.",
+      "releaseDate": "2011-07-19",
+      "duration": 124,
+      "storyDate": "1942-1945",
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BNzAxMjg0NjYtNjNlOS00NTdlLThkMGEtMjAwYjk3NmNkOGFhXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg",
+      "backgroundUrl": ""
+    },
+    {
+      "id": "the_consultant",
+      "branch": "Avengers",
+      "watchAfter": ["thor"],
+      "standAlone": false,
+      "title": "The Consultant",
+      "description": "",
+      "releaseDate": "2011-09-13",
+      "duration": 0,
+      "storyDate": "2011",
+      "imgUrl": "",
+      "backgroundUrl": ""
+    },
+    {
+      "id": "a_funny_thing_happened_on_the_way_to_thors_hammer",
+      "branch": "Avengers",
+      "watchAfter": ["iron_man_2", "the_consultant"],
+      "standAlone": false,
+      "title": "",
+      "description": "",
+      "releaseDate": "2011-10-25",
+      "duration": 0,
+      "storyDate": "2011",
+      "imgUrl": "",
+      "backgroundUrl": ""
+    },
+    {
+      "id": "the-avengers",
+      "branch": "Avengers",
+      "watchAfter": [
+        "the_incredible_hulk",
+        "captain_america_the_first_avenger",
+        "a_funny_thing_happened_on_the_way_to_thors_hammer"
+      ],
+      "standAlone": false,
+      "title": "The Avengers",
+      "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "releaseDate": "2012-05-04",
+      "duration": 143,
+      "storyDate": "2012",
+      "imgUrl": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSK0mRgxk6RD6AXbkAzpQRs7FCh9J0FiOxC9eIHCqoxAgpBeywiPrFjbAcGKbCaVYkc",
+      "backgroundUrl": ""
+    }
+  ]
+}
