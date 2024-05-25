@@ -11,6 +11,10 @@ const CompletedSchema = mongoose.Schema({
 });
 
 const UserSchema = mongoose.Schema({
+  id: {
+    type: String,
+    require: true,
+  },
   name: {
     type: String,
     require: true,
@@ -20,13 +24,7 @@ const UserSchema = mongoose.Schema({
     required: true,
     unique: true,
   },
-  password: {
-    type: String,
-    required: true,
-  },
-  completed: {
-    type: [CompletedSchema],
-  },
+  completed: [CompletedSchema],
 });
 
 const User = mongoose.model("User", UserSchema);

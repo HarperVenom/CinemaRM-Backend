@@ -3,7 +3,23 @@ const Universe = require("../models/universe.model");
 const getUniverses = async (req, res) => {
   try {
     const universes = await Universe.find({});
-    res.status(200).json(universes);
+
+    const modifiedUniverses = [];
+    universes.forEach((universe) => {
+      const totalDuration = universe.titles.reduce(
+        (acc, title) => (acc += title.duration),
+        0
+      );
+      modifiedUniverses.push({
+        id: universe.id,
+        title: universe.title,
+        description: universe.description,
+        imgUrl: universe.imgUrl,
+        duration: totalDuration,
+      });
+    });
+
+    res.status(200).json(modifiedUniverses);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

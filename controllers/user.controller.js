@@ -3,7 +3,7 @@ const User = require("../models/user.model");
 const getUser = async (req, res) => {
   try {
     const { id } = req.params;
-    const user = await User.findById(id);
+    const user = await User.findOne({ id: id });
     if (!user) {
       return res.status(404).json({ message: "User not found." });
     }
@@ -25,7 +25,7 @@ const createUser = async (req, res) => {
 const updateUser = async (req, res) => {
   try {
     const { id } = req.params;
-    const user = await User.findByIdAndUpdate(id, req.body);
+    const user = await User.findOneAndUpdate({ id: id }, req.body);
     if (!user) return res.status(404).json({ message: "User not found." });
     const updatedUser = await User.findById(id);
     res.status(200).json(updatedUser);
