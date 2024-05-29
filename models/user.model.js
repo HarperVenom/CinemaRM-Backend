@@ -5,6 +5,9 @@ const CompletedSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  filters: {
+    type: [String],
+  },
   titles: {
     type: [String],
   },
