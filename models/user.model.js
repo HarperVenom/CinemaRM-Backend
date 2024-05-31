@@ -27,6 +27,9 @@ const UserSchema = mongoose.Schema({
     required: true,
     unique: true,
   },
+  picture: {
+    type: String,
+  },
   completed: [CompletedSchema],
 });
 
