@@ -16,6 +16,7 @@ const getUniverses = async (req, res) => {
         description: universe.description,
         imgUrl: universe.imgUrl,
         duration: totalDuration,
+        number: universe.titles.length,
       });
     });
 
