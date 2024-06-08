@@ -28,6 +28,9 @@ const TitleSchema = mongoose.Schema({
   imgUrl: {
     type: String,
   },
+  smallImgUrl: {
+    type: String,
+  },
   backgroundUrl: {
     type: String,
   },
