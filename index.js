@@ -5,7 +5,7 @@ const userRouter = require("./routes/user.router");
 const corsOptions = require("./config/corsOptions");
 const connectDB = require("./config/dbConn");
 const { default: mongoose } = require("mongoose");
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
